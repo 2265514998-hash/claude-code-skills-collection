@@ -1,0 +1,40 @@
+{
+  "env": {
+    "ANTHROPIC_BASE_URL": "<YOUR_ANTHROPIC_BASE_URL>",
+    "ANTHROPIC_AUTH_TOKEN": "<YOUR_AUTH_TOKEN>",
+    "ANTHROPIC_API_KEY": "<YOUR_API_KEY>",
+    "ANTHROPIC_MODEL": "claude-sonnet-4-6",
+    "ANTHROPIC_DEFAULT_OPUS_MODEL": "claude-opus-4-8",
+    "ANTHROPIC_DEFAULT_SONNET_MODEL": "claude-sonnet-4-6",
+    "ANTHROPIC_DEFAULT_HAIKU_MODEL": "claude-haiku-4-5",
+    "CLAUDE_CODE_SUBAGENT_MODEL": "claude-haiku-4-5",
+    "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1",
+    "CLAUDE_CODE_EFFORT_LEVEL": "max"
+  },
+  "language": "zh-CN",
+  "permissions": {
+    "allow": [
+      "Bash(git status *)",
+      "Bash(git diff *)",
+      "Bash(git log *)",
+      "Bash(git branch *)",
+      "Bash(git add *)",
+      "Bash(ls *)",
+      "Bash(cat *)",
+      "Bash(echo *)",
+      "Bash(mkdir *)",
+      "Bash(npm *)",
+      "Bash(pnpm *)",
+      "Bash(yarn *)",
+      "Bash(python *)",
+      "Bash(pip *)",
+      "Bash(node *)",
+      "Bash(go *)",
+      "Bash(cargo *)",
+      "Bash(powershell -Command ' *)",
+      "WebSearch",
+      "WebFetch"
+    ]
+  },
+  "enableWorkflows": true
+}
