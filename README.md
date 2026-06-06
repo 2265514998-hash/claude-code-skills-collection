@@ -55,8 +55,8 @@
 ### 1. 克隆本仓库
 
 ```bash
-git clone https://github.com/2265514998-hash/PlotPilot.git
-cd PlotPilot
+git clone https://github.com/2265514998-hash/claude-code-skills-collection.git
+cd claude-code-skills-collection
 ```
 
 ### 2. 安装到 Claude Code
